@@ -3,7 +3,8 @@ Un demo de solution pour injecter un context dans un module. Pas la meilleurs, m
 module1 et module2 accèdent au context avec des fonctions injectées dans les modules. module3 accède au context en appelant les functions de __main__ directement
 
 Resultats: 
-'''
+
+```
 GO****************************
 Value accessed from main : globaldemo='Defined In Main'
 Value accessed from module1 : get_globaldemo()='Defined In Main'
@@ -19,8 +20,7 @@ Changing value in module3
 Value accessed from module3 : get_globaldemo()='Value updated in module3'
 Value accessed from main after update in module3: globaldemo='Value updated in module3'
 Value accessed from module1 : get_globaldemo()='Value updated in module3' (edited)Saturday, February 14, 2026 at 22:06
-
-'''
+```
 
 
 Avantage : seulement les globals que tu veux partager le sont. 
@@ -29,7 +29,8 @@ inconvenihent : Il faut 2 lignes et/ou fonctions par module et par variable pour
 
 
 Ex : Classes avec property : 
-```class MyClass:
+```
+class MyClass:
     pass
 
 def get_value(self):
