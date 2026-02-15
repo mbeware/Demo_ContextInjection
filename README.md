@@ -19,7 +19,7 @@ Value accessed from module3 : get_globaldemo()='Value updated in module2'
 Changing value in module3
 Value accessed from module3 : get_globaldemo()='Value updated in module3'
 Value accessed from main after update in module3: globaldemo='Value updated in module3'
-Value accessed from module1 : get_globaldemo()='Value updated in module3' (edited)Saturday, February 14, 2026 at 22:06
+Value accessed from module1 : get_globaldemo()='Value updated in module3' 
 ```
 
 
