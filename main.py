@@ -1,5 +1,7 @@
 import module1
 import module2
+import module3
+
 
 ##################
 # Helper functions
@@ -48,5 +50,13 @@ module2.setglobaldemo()
 module2.printglobaldemo()
 
 print(f"Value accessed from main after update in module2: {globaldemo=}")
+
+
+module3.printglobaldemo()
+print("Changing value in module3" )
+module3.setglobaldemo()
+module3.printglobaldemo()
+
+print(f"Value accessed from main after update in module3: {globaldemo=}")
 
 module1.printglobaldemo()
